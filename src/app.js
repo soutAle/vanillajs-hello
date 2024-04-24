@@ -27,9 +27,7 @@ window.onload = function () {
       " " +
       when[randWhen];
       
-    document.getElementById("Excusa").innerHTML = excusa;
-    document.getElementsByClassName("btn").innerHTML = excusa;
-    
+    document.getElementById("Excusa").innerHTML = excusa; 
     return excusa;
   }
 
